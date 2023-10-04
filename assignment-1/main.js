@@ -1021,7 +1021,6 @@ console.log('2)', quest2(products));
 console.log('3)', quest3(products));
 console.log('4)', quest4(products));
 console.log('5)', quest5(products));
-
 // quest6 & quest7
 console.log('6)', sortedExpensiveToCheapest(products).expensive);
 console.log('7)', sortedExpensiveToCheapest(products).cheapest);
