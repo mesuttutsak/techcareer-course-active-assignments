@@ -1006,7 +1006,7 @@ function quest5(arr) {
 // 6) en pahalı ürünün adını console a yazdır
 // 7) en ucuz ürünün adını console a yazdır
 
-function sortedExpensiveToCheapest(arr) {
+function sortedCheapestToExpensive(arr) {
     const sortedByUnitPrice = arr.sort((a,b) => a.unitPrice - b.unitPrice );
     const mostExpensiveProduct = sortedByUnitPrice[sortedByUnitPrice.length - 1];
     const cheapestProduct = sortedByUnitPrice[0];
