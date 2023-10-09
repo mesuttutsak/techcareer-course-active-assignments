@@ -1014,8 +1014,6 @@ function sortedCheapestToExpensive(arr) {
     return {expensive : mostExpensiveProduct, cheapest: cheapestProduct};
 }
 
-
-
 console.log('1)', quest1(products));
 console.log('2)', quest2(products));
 console.log('3)', quest3(products));
